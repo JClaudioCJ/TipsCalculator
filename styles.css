@@ -6,11 +6,18 @@
     --tertiary-color: Gainsboro;
 }
 
+html {
+    height: 100%
+}
+
 body {    
     font-size: 15px;
     font-family: Gentium Plus, Sans-serif;    
-    background-image: linear-gradient(var(--primary-color), white);
+    background-image: linear-gradient(var(--primary-color), #d8eee9de);
     background-repeat: no-repeat;
+    background-size: cover;
+    border: solid transparent;
+    margin: solid transparent;
 }
 
 #container {    
