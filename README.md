@@ -1,2 +1,3 @@
-# TipsCalculator
+> TipsCalculator 
+
 App to calculate tips
