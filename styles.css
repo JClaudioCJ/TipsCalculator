@@ -1,18 +1,19 @@
 @import url('http://fonts.cdnfonts.com/css/gentium-plus');
 
 :root {
-    --primary-color:#7ed4c1;
+    --primary-color: #85e5cf;
     --secondary-color: Dimgray;
-    --tertiary-color:Gainsboro;
+    --tertiary-color: Gainsboro;
 }
 
-body {
-    background-color: var(--primary-color);
+body {    
     font-size: 15px;
-    font-family: Gentium Plus, Sans-serif;
+    font-family: Gentium Plus, Sans-serif;    
+    background-image: linear-gradient(var(--primary-color), white);
+    background-repeat: no-repeat;
 }
 
-#container {
+#container {    
     height: 525px;
     width: 360px;
     margin: 100px auto;
@@ -30,7 +31,6 @@ body {
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     text-align: center;
-
 }
 
 .tipsForm {
